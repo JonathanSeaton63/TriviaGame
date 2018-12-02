@@ -32,6 +32,7 @@ $(document).ready(function () {
             document.getElementById("#time-left")
             count++;
         }
+        // Timer for 30 seconds to answer the questions
             startGame();
     });
     function startGame() {
@@ -61,4 +62,6 @@ $(document).ready(function () {
     }
 
 });
+
+// if else statements to check user imput to correct answer and update the correct and incorrect totals.
 
